@@ -1,0 +1,49 @@
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent">
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.sandbox.loc1.MapsActivity"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/B_hopistals" />
+
+    <Button
+        android:id="@+id/B_hopistals"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:background="@drawable/bck"
+        android:onClick="onClick"
+        android:text="@string/hospital" />
+
+    <Button
+        android:id="@+id/B_med_shops"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="62dp"
+        android:layout_toEndOf="@+id/B_hopistals"
+        android:background="@drawable/bck"
+        android:onClick="onClick1"
+        android:text="@string/medshops" />
+
+
+
+</RelativeLayout>

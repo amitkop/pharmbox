@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "598815619018",
+    "firebase_url": "https://pharmbox-877e6.firebaseio.com",
+    "project_id": "pharmbox-877e6",
+    "storage_bucket": "pharmbox-877e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598815619018:android:046cb640949e66f0",
+        "android_client_info": {
+          "package_name": "com.codeholics.pharmbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598815619018-d09660enlpncmcqrjkbtmkm885tuuml6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codeholics.pharmbox",
+            "certificate_hash": "24bd1b0edc124c57548cfa36b615e2cb968c1cd9"
+          }
+        },
+        {
+          "client_id": "598815619018-r0vtlnnpvdfufv73p2381etf4560mlb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcH2kyiAMCAe-UvzMm3JsV05BS8lyC9Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598815619018-r0vtlnnpvdfufv73p2381etf4560mlb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
